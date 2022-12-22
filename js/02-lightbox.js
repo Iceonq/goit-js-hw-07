@@ -18,5 +18,6 @@ for (let i = 0; i < galleryItems.length; i++) {
 }
 
 var lightbox = new SimpleLightbox(".gallery a", {
-  captionDelay: 100,
+  captionDelay: 250,
+  captionsData: "alt",
 });
